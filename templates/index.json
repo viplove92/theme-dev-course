@@ -8,15 +8,18 @@
  * ------------------------------------------------------------
  */
 {
-    "sections": {
-        "main":{
-            "type": "header",
-            "settings": {}
-        },
-        "hero-banner":{
-            "type":"hero-banner",
-            "settings": {} 
-        }
+  "sections": {
+    "hero-banner": {
+      "type": "hero-banner",
+      "settings": {}
     },
-    "order":["main","hero-banner"]
+    "main": {
+      "type": "header",
+      "settings": {}
+    }
+  },
+  "order": [
+    "hero-banner",
+    "main"
+  ]
 }
