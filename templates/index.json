@@ -9,17 +9,20 @@
  */
 {
   "sections": {
-    "hero-banner": {
+  
+    "hero_banner_8VFMrA": {
       "type": "hero-banner",
-      "settings": {}
-    },
-    "main": {
-      "type": "header",
-      "settings": {}
+      "name": "Hero Banner",
+      "settings": {
+        "banner": "shopify://shop_images/gift_card.jpg",
+        "heading_text": "This is awesome heading.",
+        "description_text": "This is awesome explaner text.",
+        "full_width_section": true
+      }
     }
   },
   "order": [
-    "hero-banner",
-    "main"
+    
+    "hero_banner_8VFMrA"
   ]
 }
