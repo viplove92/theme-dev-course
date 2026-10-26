@@ -9,9 +9,9 @@
  */
 {
   "sections": {
-  
     "hero_banner_8VFMrA": {
       "type": "hero-banner",
+      "disabled": true,
       "name": "Hero Banner",
       "settings": {
         "banner": "shopify://shop_images/gift_card.jpg",
@@ -19,10 +19,67 @@
         "description_text": "This is awesome explaner text.",
         "full_width_section": true
       }
+    },
+    "richtext_yQnXh9": {
+      "type": "richtext",
+      "blocks": {
+        "caption_bTMYdX": {
+          "type": "caption",
+          "settings": {
+            "caption": "Caption-Eyebrow text"
+          }
+        },
+        "heading_thDFf9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your awesome heading text goes here."
+          }
+        },
+        "sub_heading_bxhkQA": {
+          "type": "sub_heading",
+          "settings": {
+            "sub_hrading": "This is a place to enter a relevent sub-heading text."
+          }
+        },
+        "description_pgQ43q": {
+          "type": "description",
+          "settings": {
+            "description": "<h2>This is your changes to pursuade your customer by explaining them about the heading.</h2>"
+          }
+        },
+        "buttons_najUrp": {
+          "type": "buttons",
+          "settings": {
+            "primary_btn_text": "Shop Now",
+            "secondary_btn_text": "learn more",
+            "primary_btn_link": "shopify://collections/all",
+            "secondary_btn_link": "shopify://collections/all"
+          }
+        }
+      },
+      "block_order": [
+        "caption_bTMYdX",
+        "heading_thDFf9",
+        "sub_heading_bxhkQA",
+        "description_pgQ43q",
+        "buttons_najUrp"
+      ],
+      "name": "Richtext",
+      "settings": {
+        "section_bg": "#e34848",
+        "inner_bg": "#ffffff",
+        "button_bg_primary": "#000",
+        "button_bg_secondary": "#000",
+        "button_text_primary": "#fff",
+        "button_text_secondry": "#ffffff",
+        "padding_top": 3,
+        "padding_bottom": 3,
+        "padding_inner": 3
+      }
     }
   },
   "order": [
-    
-    "hero_banner_8VFMrA"
+    "hero_banner_8VFMrA",
+    "richtext_yQnXh9"
   ]
 }
