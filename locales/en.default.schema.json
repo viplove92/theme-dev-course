@@ -11,6 +11,13 @@
     "section": {
         "richtext": {
             "name": "Richtext"
+        },
+        "general": {
+            "color": "Color",
+            "spacing": "Spacing",
+            "padding_top": "Padding top",
+            "padding_bottom": "Padding bottom",
+            "full_width_section": "Enable full width"
         }
     }
 }

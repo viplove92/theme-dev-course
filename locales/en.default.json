@@ -8,6 +8,9 @@
  * ------------------------------------------------------------
  */
 {
+    "general": {
+        "welcome_message": "Welcome to Viplove's world"
+    },
     "products": {
         "product": {
             "add_to_cart": "Add to cart",

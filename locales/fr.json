@@ -8,11 +8,20 @@
  * ------------------------------------------------------------
  */
 {
+    "general": {
+        "welcome_message": "« Bienvenue dans le monde de Viplove »"
+    },
     "products": {
         "product": {
-            "add_to_cart": "Ajouter au panier"
-            
-
+            "add_to_cart": "Add to cart",
+            "quantity": "Quantity",
+            "sold_out": "Sold out"
+        }
+    },
+    "cart": {
+        "general": {
+            "cart_title": "Your cart",
+            "empty": "Your cart is empty"
         }
     }
 }
